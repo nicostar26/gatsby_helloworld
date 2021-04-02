@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import "../styles/header.css"
 
 
 const Header = () => {
     return(
         <header>
-        <h1>Nicole Saunders</h1> 
+        <div className="headertitle">
+        <h1 className="name">Nicole Saunders</h1> 
+        </div>
         <nav> 
             <ul>
                 <li>
