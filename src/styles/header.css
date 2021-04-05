@@ -20,9 +20,21 @@ body{
 .nav{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .navlink{
     text-decoration: none;
     padding: 10px;
+    color: rgb(143, 138, 136);
+    font-weight: bold;
+}
+
+.navlink:hover{
+    color: rgb(65, 64, 62);
+    font-weight: bold;
+}
+
+.activelink{
+    background-color: rgb(4, 4, 87);
 }
