@@ -12,13 +12,17 @@ body{
 }
 
 .name{
-    color: pink;
+    color: white;
     margin: 0px;
     padding: 0px;
 }
 
-
-ul{
-    display: flex;   
+.nav{
+    display: flex;
+    justify-content: center;
 }
 
+.navlink{
+    text-decoration: none;
+    padding: 10px;
+}

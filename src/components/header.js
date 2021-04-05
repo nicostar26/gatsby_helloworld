@@ -9,22 +9,14 @@ const Header = () => {
         <div className="headertitle">
         <h1 className="name">Nicole Saunders</h1> 
         </div>
-        <nav> 
-            <ul>
-                <li>
-                <Link to="/">Home</Link>
-                </li>
-                <li>
-                <Link to="/about">About</Link>
-                </li>
-                <li>
-                <Link to="/blog">Blog</Link>
-                </li>
-                <li>
-                <Link to="/contact">Contact</Link>
-                </li>   
-        
-            </ul>
+        <nav className="nav"> 
+                <Link className="navlink" to="/">Home</Link>
+                
+                <Link className="navlink" to="/about">About</Link>
+                
+                <Link className="navlink" to="/blog">Blog</Link>
+                
+                <Link className="navlink" to="/contact">Contact</Link>
         </nav>
         </header>
     )
