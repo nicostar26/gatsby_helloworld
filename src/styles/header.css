@@ -38,3 +38,7 @@ body{
 .activelink{
     background-color: rgb(4, 4, 87);
 }
+
+.footerdata{
+    text-align: center;
+}
